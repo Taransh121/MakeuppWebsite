@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLOW AND GO(HOME)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Kaushan+Script&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="home.css"> -->
+    <!-- <link rel="stylesheet" href="home(phone).css" media="screen and (max-width:500px)"> -->
+    <style>
+        /* BODY  */
+*{
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url("https://images.unsplash.com/photo-1526045478516-99145907023c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1000&ixid=MnwxfDB8MXxyYW5kb218MHx8bWFrZXVwLHByb2R1Y3RzfHx8fHx8MTY0NDE4MjkwNQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=2000" ); */
+    height: 2100px;
+    width: 1500px;
+    background-color:white;
+    margin: 0px;
+}
+/* ANCHOR TAGS  */
+a:visited { 
+    color: black; 
+}
+a:hover{
+    color: white;
+}
+a{
+    text-decoration: none; 
+    list-style: none;
+    color: inherit;
+}
+/* MAIN HEADING  */
+#heading{
+    margin: 0px;
+    font-size: 30px;
+    text-align: center;
+    color:darkblue;
+    font-family: 'Kaushan Script', cursive;
+    /* font-weight: bold; */
+}
+h1{
+    font-size: 55px;
+    /* font-family: 'Comforter', cursive; */
+}
+/* NAVIGATION BAR  */
+.navbar{
+    /* border: 2px solid black; */
+    background-color:rgb(250 182 39);
+    /* border-radius: 20px; */
+    height: 70px;
+    /* box-shadow: 8px 10px 12px 2px gray ; */
+    /* margin-bottom:17px; */
+    /* position: absolute;
+    top: 80px; */
+    /* margin: 0px auto 17px auto; */
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 12px 20px;
+    list-style: none;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 19px;
+}
+li:hover{
+    cursor: pointer;
+    color:white;
+}
+#logo{
+    height: 50px;
+    margin: -13px 0px 30px 0px;
+}
+#searchbox{
+    margin: 0px 0px 0px 750px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: bold;
+    height: 25px;
+    
+}
+/* Time  */
+.time{
+    border: 2px solid gray;
+    margin: 30px auto;
+    width: 750px;
+    height: 100px;
+    padding: 35px 20px;
+    border-radius: 7px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 18px;
+    /* color:red; */
+    background-color:rgb(250 182 39);
+    box-shadow: 8px 10px 12px 2px gray ;
+}
+/* LOREM  */
+.lorem{
+    text-align: center;
+    margin: 40px 20px;
+}
+/* BRANDS  */
+.brands{
+    margin: 30px 40px 70px 40px;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: 10px 20px; */
+    text-align: center;
+    /* border: 3px solid springgreen; */
+    border-radius: 20px;
+    background-color:rgb(195 175 254);
+    height: 800px;
+    width: 1400px;
+    box-shadow: 13px 13px 12px 2px gray ;
+    /* #d3eff5  */
+}
+.brands_images{
+    height: 300px;
+    width: 300px;
+    margin: 30px 0px;
+}
+.subheading{
+    text-align: center;
+    color:darkblue;
+}
+/* CAtegories for you  */
+.cat{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    background-color: rgb(195 175 254);
+    height: 350px;
+    border-radius: 20px;
+    width: 1400px;
+    margin: 0px auto;
+    box-shadow: 13px 13px 12px 2px gray ;
+}
+.cat_images
+{
+    height: 300px;
+    width: 300px;
+    margin: 20px auto;
+
+}
+/* Footer  */
+.foot{
+    /* margin: 180px 0px; */
+    border: 1px solid black;
+    background-color:#969ba5;
+    border-radius: 10px;
+    height: 100px;
+    box-shadow: 10px 10px 12px 2px gray ;
+    margin: 40px 0px;
+}
+
+#emailinput{
+    margin: 10px 0px;
+    height: 35px;
+    /* color: black; */
+    /* background-color: cornflowerblue; */
+}
+#suscribebtn{
+    margin: 10px 10px;
+    height: 33px;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    padding: 0px 20px;   
+}
+#suscribebtn:hover{
+    color: red;
+}
+.footli{
+    justify-content: center;
+    margin: auto 30px;
+}
+#deals{
+    margin: 0px 800px 0px 0px;
+}
+#deals:hover{
+    color: black;
+}
+#phonenumber{
+    margin: 40px 0px 0px 0px;
+}
+#phonenumber:hover{
+    color: black;
+    cursor: text;
+}
+/* LASTLINE  */
+#lastline{
+    margin: 30px 425px;
+    font-family:'Courier New', Courier, monospace;
+}
+#lastline:hover{
+    color: black;
+}
+/* SUB HEADING  */
+.subheading{
+    color: black;
+    text-decoration:underline;
+    font-weight: 300;
+}
+
+@media only screen and (max-width:500px) {
+    /* body  */
+body{
+    width: 1100px;
+    margin: 0px 0px 0px 30px;
+    /* margin: 0px 50px 0px 20px; */
+}
+#heading{
+    text-align: center;
+    margin: 0px auto;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 450px;
+}
+.navbar{
+    width: auto;
+    /* width: 400px; */
+    text-align: center;
+    align-items: center;
+    margin: 10px auto;
+    height: auto;
+    padding: 0px 30px 0px 0px;
+}
+#searchbox{
+    margin: 0px;
+}
+/* lorem  */
+.lorem{
+    margin: 80px 100px 80px 100px;
+}
+#lorem2{
+    margin: 50px 100px 50px 100px;
+}
+/* brands  */
+.brands{
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    padding: 0px 100px;
+    height: auto;
+    width: 1100px;
+    text-align: center;
+    margin: 0px auto 50px auto;
+}
+.cat{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 450px;
+    /* width: auto; */
+    text-align: center;
+    margin: 0px auto;
+}
+/* footer  */
+.foot{
+    height: 210px;
+    /* padding: 0px 0px; */
+} 
+#phonenumber{
+    /* margin: 0px 0px 0px 800px; */
+    margin: 0px auto;
+}
+#lastline{
+    margin: 20px 200px;
+}
+footer ul li{
+    padding: 0px ;
+    width: 300px;
+}
+}
+
+    </style>
+</head>
+<!-- Top right bottom left  -->
+<body>
+    <!-- Heading  -->
+    <div id="heading">
+        <h1><strong> GLOW AND GO</strong></h1>
+    </div>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><img id="logo" src="https://i.pinimg.com/originals/a1/ca/35/a1ca35caefda4532ec52a5a988abbe15.jpg" alt=""></li>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/products">Products</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><input type="text" name="mysearch" id="searchbox" placeholder="Search product here"></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Bootstrap start  -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+        // alert("You have reached the home page of new-gobind-stores!")
+        function displaytimes()
+        {
+            let a=Date();
+            document.getElementById("times").innerHTML="Current time is-" + a;
+        }
+        setInterval(displaytimes,1000)
+    </script>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images-static.nykaa.com/uploads/d1453b3c-5c68-4011-b567-7c595c297f74.jpg?tr=w-1200,cm-pad_resize" height="375px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://logan.nnnow.com/content/dam/nnnow-project/09-march-2022/se/Lancome_TopBannerDesktop_Get7mlGenefique(1).jpg" height="375px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://media6.ppl-media.com/tr:w-1280,c-at_max,pr-true/mediafiles/ecomm/misc/1646676774_web-final-copy.png" class="d-block w-100" height="375px" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- Bootstrap end  -->
+
+    <div class="time" id="times">
+        <p>Current time is-</p>
+    </div>
+
+    <h1 class="subheading">TOP BRANDS</h1>
+    
+    <div class="brands">
+        <a href="https://lakmeindia.com/" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HkkNoB6LZtqABRLxYXYNdc_ap5jWwgF_WpBWegZz1zb0WTjuLUJfM_Gw0YHOFuQnZyw&usqp=CAU" class="brands_images" alt="Lakme"></a>
+
+        <a href="https://www.maybelline.com/" target="_blank"><img src="https://adn-static1.nykaa.com/media/categoryInfo/image_in_list/596_5fbd16a055091_269x420.png" class="brands_images" alt="Maybelline"></a>
+
+        <a href="https://www.facescanada.com/" target="_blank"><img src="https://youthid.in/assets/images/demo/Facescanada3.jpg" class="brands_images" alt="Faces"></a>
+
+        <a href="https://www.loreal.com/en/" target="_blank"><img src="https://adn-static1.nykaa.com/media/categoryInfo/image_in_list/595_60f1821b0b76d_Combos-Tip-Tile_269X420_V3.jpg" class="brands_images" alt="Loreal"></a>
+
+        <a href="https://www.maccosmetics.in/" target="_blank"><img src="https://images-static.nykaa.com/tr:w-640,c-at_max/uploads/8c623af2-0786-4d02-a37c-fa513f4ff0d2.jpg" class="brands_images" alt="MAC"></a>
+
+        <a href="https://starsindia.net/" target="_blank"><img src="https://www.nykaa.com/media/categoryInfo/art_banner_image/HERE_S_WHY_YOU_NEED_TO_GET_THESE_SHOWER-GEL_STAPLES_BY_NIVEA_CB.jpg" class="brands_images" alt="Nivea"></a>
+    </div>
+
+    <h1 class="subheading">SHOP BY CATEGORY</h1>
+
+    <div class="cat">
+        <div class="skincare">
+            <a href="#"><img class="cat_images" src="https://cdn4.vectorstock.com/i/1000x1000/09/53/skin-care-logo-inspiration-vector-31020953.jpg" alt="Skincare"></a>
+        </div>
+        <div class="haircare">
+            <a href="#"><img class="cat_images" src="https://thumbs.dreamstime.com/b/hair-care-logo-design-concept-eps-supported-83342800.jpg" alt="Haircare"></a>
+        </div>
+        <div class="bodycare">
+            <a href="#"><img class="cat_images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1QSdeFwtRnpeX1qUaX5y2YEG-uQA-7h4bwA&usqp=CAU" alt="bodycare"></a>
+        </div>
+    </div>
+
+    <div class="lorem" id="lorem2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. sequi fugiat dignissimos!harum sit aliquid. Non animi qui voluptates placeat atque maxime eaque culpa porro quo et cupiditate, sint laborum dolor consectetur earum libero velit itaque ipsa quia, aliquid facere dolorum? Quisquam natus minus voluptas animi at officia fugiat harum necessitatibus reprehenderit inventore, incidunt ex quo odit eum vel quis debitis quia. Repellendus, impedit adipisci fuga magni 
+    </div>
+
+    <div class="foot">
+        <footer>
+            <ul>
+                <li id="deals" class="footli">Know our hottest deals and coolest products- <br> <input type="text" name="myemail" id="emailinput" placeholder="Email address"> <button id="suscribebtn">Suscribe</button></li>
+                <li id="phonenumber">Phone:+919118859567</li>
+            </ul>
+            <li id="lastline" class="footli">Copyright © 1975 New Gobind stores. All rights reserved. </li>
+        </footer>
+        
+    </div>
+    
+</body>
+</html>

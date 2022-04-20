@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLOW AND GO(CONTACT)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Kaushan+Script&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="contact.css"> -->
+    <!-- <link rel="stylesheet" href="contact(phone).css" media="screen and (max-width:500px)"> -->
+    <style>
+        /* BODY  */
+*{
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url("https://images.unsplash.com/photo-1526045478516-99145907023c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1000&ixid=MnwxfDB8MXxyYW5kb218MHx8bWFrZXVwLHByb2R1Y3RzfHx8fHx8MTY0NDE4MjkwNQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=2000" ); */
+    height: auto;
+    /* height: 2000px; */
+    width: 1500px;
+    background-color:white;
+}
+/* ANCHOR TAGS  */
+a:visited { 
+    color: black; 
+}
+a:hover{
+    color: white;
+}
+a{
+    text-decoration: none; 
+    list-style: none;
+    color: inherit;
+}
+/* MAIN HEADING  */
+#heading{
+    margin: -35px 0px;
+    font-size: 25px;
+    text-align: center;
+    color:darkblue;
+    font-family: "Kaushan Script";
+    /* font-size: 35px; */
+
+}
+/* NAVIGATION BAR  */
+.navbar{
+    /* border: 2px solid black; */
+    background-color:rgb(250 182 39);
+    border-radius: 5px;
+    height: 70px;
+    /* box-shadow: 8px 10px 12px 2px gray ; */
+}
+nav>ul{
+    display: flex;
+    /* flex-direction: column; */
+
+}
+nav>ul>li{
+    margin:22px 20px;
+    list-style: none;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 19px;
+}
+nav ul li:hover{
+    cursor: pointer;
+    color: white;
+}
+#logo{
+    height: 50px;
+    margin: -13px 0px 30px 0px;
+}
+#searchbox{
+    margin: 0px 0px 0px 750px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: bold;
+    height: 25px;
+}
+/* Lorem  */
+.lorem1{
+    text-align: center;
+    margin: 40px 10px 20px 10px;
+}
+/* Heading first  */
+#firstheading{
+    color: darkblue;
+    text-align: center;
+}
+/* Form  */
+.form{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    /* text-align: center; */
+    border: 1px solid black;
+    background-color: rgb(195 175 254);
+    width: 400px;
+    border-radius: 10px;
+    margin: 0px auto;
+    height: 300px;
+    box-shadow: 4px 4px 6px 6px gray;
+}
+.formcontent{
+    margin: 10px 80px;
+
+}
+input{
+    width: 200px;
+    border: 2px solid black;
+    height: 25px;
+    margin: 10px 0px;
+}
+.submits{
+    width: 100px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: black;
+    margin: 15px 150px;
+
+}
+.submits:hover{
+    color: red;
+}
+/* REACH US  */
+.reachh{
+    text-align: center;
+    margin: 10px 0px -10px 0px;
+
+}
+.reachus{
+    border: 2px solid black;
+    width: 250px;
+    background-color:rgb(250 182 39);
+    border-radius: 10px;
+    /* position: absolute; */
+    position: relative;
+    top: 0px;
+    left: 1200px;
+    box-shadow: 8px 10px 12px 2px gray ;
+
+}
+/* Footer  */
+.foot{
+    margin: 180px 0px;
+    border: 1px solid black;
+    background-color:#969ba5;
+    border-radius: 5px;
+    height: 100px;
+    box-shadow: 8px 10px 12px 2px black ;
+    margin: 50px 0px 0px 0px;
+}
+#emailinput{
+    margin: 10px 0px;
+    height: 35px;
+    /* color: black; */
+    /* background-color: cornflowerblue; */
+}
+#suscribebtn{
+    margin: 10px 10px;
+    height: 33px;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    padding: 0px 20px;   
+}
+#suscribebtn:hover{
+    color: red;
+}
+.footli{
+    justify-content: center;
+    margin: auto 30px;
+}
+#deals{
+    margin: 0px 800px 0px 0px;
+    list-style: none;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 19px;
+}
+#deals:hover{
+    color: black;
+}
+#phonenumber{
+    margin: -38px 0px 0px 1200px;
+    list-style: none;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 19px;
+}
+#phonenumber:hover{
+    color: black;
+    cursor: text;
+}
+/* LASTLINE  */
+#lastline{
+    margin: 30px 425px;
+    font-family:'Courier New', Courier, monospace;
+    list-style: none;
+    font-weight: bold;
+    font-size: 19px;
+}
+#lastline:hover{
+    color: black;
+}
+@media only screen and (max-width:500px){
+    /* Heading  */
+#heading{
+    text-align: center;
+    margin: 0px auto;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+nav>ul{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.navbar{
+    width: auto;
+    /* width: 400px; */
+    text-align: center;
+    align-items: center;
+    /* margin: 0px auto; */
+    height: auto;
+    padding: 0px 30px 0px 0px;
+    margin: 0px 15px 0px 0px;
+
+}
+#searchbox{
+    margin: 0px;
+}
+/* Lorem  */
+.lorem{
+    margin: 80px 100px 80px 100px;
+}
+/* Reach us  */
+.reachus{
+    position: relative;
+    top: 00px;
+    left: 1200px;
+}
+/* Footer  */
+.foot{
+    height: 210px;
+    padding: 0px 0px;
+    margin: 30px 15px 0px 0px;
+}
+#lastline{
+    margin: 10px 420px;
+}
+#phonenumber{
+    margin: 55px 1150px;
+}
+}
+    </style>
+</head>
+<!-- Top right bottom left  -->
+<body>
+    <div id="heading">
+        <h1>GLOW AND GO</h1>
+    </div>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><img id="logo" src="https://i.pinimg.com/originals/a1/ca/35/a1ca35caefda4532ec52a5a988abbe15.jpg" alt=""></li>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/products">Products</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><input type="text" name="mysearch" id="searchbox" placeholder="Search product here"></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="lorem1">
+        Lorem ipsum dolor sit amet consectetur . ipsam  sequi fugiat dignissimos! Cum adipisci nobis suscipit impedit culpa harum sit aliquid. Non animi qui voluptates placeat atque maxime eaque culpa porro quo et cupiditate, sint laborum dolor consectetur earum libero velit itaque ipsa quia, aliquid facere dolorum? Quisquam natus minus voluptas animi at officia fugiat harum necessitatibus reprehenderit inventore, incidunt ex quo odit eum vel quis debitis quia. Repellendus, impedit adipisci fuga magni reprehenderit labore ipsam fugiat molestiae. Atque ex exercitationem amet porro veritatis aliquam 
+    </div>
+
+    <h1 id="firstheading">Enter your details below, our company will reach out to you soon-</h1>
+
+    <div class="form">
+        <form action="/" method="post" id="forms">
+            <div class="formcontent" id="name">    
+                <label for="names">Name:</label><br>
+                <input name="Name" type="text" id="names">
+            </div>
+            <div class="formcontent" id="email">
+                <label for="emails">Email ID:</label><br>
+                <input name="Email" type="email">
+            </div>
+            <div class="formcontent" id="number">
+                <label for="numbers">Phone Number:</label><br>
+                <input name="Number" type="number"  id="numbers" min="0" max="9999999999">
+            </div>
+            <div class="formcontent" id="submit">
+                <input type="button" value="Submit" class="submits">
+            </div>
+        </form>
+    </div>
+
+    <div class="reachus">
+        <h3 class="reachh">Reach out to us now-</h3>
+        <p>
+            <details id="myemail">taranshchellani121@gmail.com
+                <summary><strong>EMAIL US-</strong> </summary>
+            </details>
+            <details id="mynumber">+91 9118859567
+                <summary><strong>CALL US-</strong> </summary>
+            </details>
+        </p>
+    </div>
+
+    <div class="foot">
+        <footer>
+            <ul>
+                <li id="deals" class="footli">Know our hottest deals and coolest products- <br> <input type="text" name="myemail" id="emailinput" placeholder="Email address"> <button id="suscribebtn">Suscribe</button></li>
+                <li id="phonenumber">Phone:+919118859567</li>
+            </ul>
+            <li id="lastline" class="footli">Copyright © 1975 New Gobind stores. All rights reserved. </li>
+        </footer>
+    </div>
+    <script>
+        alert("You have reached the Contact-us page of GLOW-AND-GO!")
+    </script>
+</body>
+</html>
